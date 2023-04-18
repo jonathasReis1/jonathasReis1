@@ -1,5 +1,58 @@
-- 👋 Hi, I’m @jonathasReis1
-- 👀 I’m interested in aprender a programar em diferentes linguagens (Java, JavaScript, Python, C++)
-- 🌱 I’m currently learning  python, sou iniciante
-- 💞️ I’m looking to collaborate on construir uma carreira como Dev. Junior
-- 📫 How to reach me? jonathasreisgorge31@gmail.com ou 21-979581705
+- 👋 Olá sou @jonathasReis1
+- 👀 Estou interessado em aprender a programar em diferentes linguagens (Java, JavaScript, Python, C++)
+- 🌱 Atualemtne estou estudando somente Python, para iniciantes e claro.
+- 💞️  estou em uma transição de carreira para Dev. Júnior 
+- 📫 Como chegar ate mim? jonathasreisgorgel31@gmail.com ou 21-979581705
+_____________________________________________________________________________________________________________________________________________________________________________________________
+Veja meu primeiro trabalho feito sozinho executando apenas o material adquirido em aulas online.
+feito em python  3.11.3
+
+nome = input('digite seu nome: ')
+Nota1 = float(input(f'{nome} Digite sua primeira nota: '))
+Nota2 = float(input(f'{nome} Digite sua segunda nota: '))
+Nota3 = float(input(f'{nome} Digite sua terceira nota: '))
+Nota4 = float(input(f'{nome} Digite sua quarta nota: '))
+Media = (Nota1 + Nota2 + Nota3 + Nota4  / 4 )
+print(f'sua media esse ano foi {Nota1} no bimestre 1, {Nota2} no bimestre 2, {Nota3} no bimestre 3 e {Nota4} no bimestre 4 A soma disso tudo e: {Media:.2f} ')
+if Media > 20:
+    print(f'Parabéns você passou de ano! Sua nota é {Media} ')
+else:
+    print(f' Notas abaixo da media, informamos que por falta de nota o aluno {nome} foi reprovado \n a sua nota obtida foi {Media} ')
+_____________________________________________________________________________________________________________________________________________________________________________________________
+Veja também outro trabalho meu.
+Feito em Python 3.11.3
+
+tb = int(input('Digite o numero do qual queira saber da tabuada: '))
+print('_' * 12)
+print(f'{tb:2} X 1 = {tb * 1}\n'
+      f'{tb:2} X 2 = {tb * 2}\n'
+      f'{tb:2} X 3 = {tb * 3}\n'
+      f'{tb:2} X 4 = {tb * 4}\n'
+      f'{tb:2} X 5 = {tb * 5}\n'
+      f'{tb:2} X 6 = {tb * 6}\n'
+      f'{tb:2} X 7 = {tb * 7}\n'
+      f'{tb:2} X 8 = {tb * 8}\n'
+      f'{tb:2} X 9 = {tb * 9}\n'
+      f'{tb:2} X 10 = {tb * 10}\n')
+print('_' * 12) 
+________________________________________________________________________________________________________________________________________________________________________________________________
+Veja também outro trabalho meu.
+Feito em Python 3.11.3
+
+nome = input('Digite seu nome: ')
+nomec = input('Digite o nome do carro alugado: ')
+Dias = int(input('Quantos dias alugado? '))
+Km = float(input('Quantos Km rodado? '))
+pago = (Dias * 60) + (Km * 0.15) 
+print(f'{nome} você rodou {Km}Km em apenas {Dias} dias '
+      f'Valor a pagar R${pago:.2f} no alugul do {nomec}.')
+_______________________________________________________________________________________________________________________________________________________________________________________________
+Veja também outro trabalho meu.
+Feito em Python 3.11.3
+
+nome = input('Digite seu nome: ')
+real = float(input(f'{nome} Quanto dinheiro você tem na carteira? R$' ))
+dolar = real / 4.91
+euro = real / 5.40
+print(f'{nome} com R${real:.2f} você pode comprar US${dolar:.2f}')
+print(f'{nome} com R${real:.2f} você pode comprar £${euro:.2f}')
